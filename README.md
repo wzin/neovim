@@ -307,7 +307,7 @@ compiling the libuv dependency. See joyent/libuv#1158.
       
   Via Homebrew:
 
-      brew install libtool automake cmake
+      brew install --HEAD https://raw.github.com/neovim/neovim/master/neovim.rb
 
 If you run into wget certificate errors, you may be missing the root SSL
 certificates or have not set them up correctly:
